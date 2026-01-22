@@ -4,8 +4,8 @@ from esphome.components import sensor, uart #, json
 from esphome import automation
 from esphome.const import (
     CONF_ID,
-    UNIT_VOLT,
-    UNIT_BAR,
+    #UNIT_VOLT,
+    #UNIT_BAR,
     UNIT_EMPTY,
     # ICON_CURRENT_AC,
     # ICON_FLASH,
@@ -13,8 +13,8 @@ from esphome.const import (
     # ICON_PERCENT,
     # ICON_EMPTY,
     # ICON_PULSE,
-    DEVICE_CLASS_VOLTAGE,
-    DEVICE_CLASS_PRESSURE,
+    #DEVICE_CLASS_VOLTAGE,
+    #DEVICE_CLASS_PRESSURE,
     DEVICE_CLASS_EMPTY,
     STATE_CLASS_MEASUREMENT,
     # CONF_TRIGGER_ID,
